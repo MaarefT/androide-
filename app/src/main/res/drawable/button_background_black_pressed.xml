@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#34495E" /> <!-- Changer la couleur de fond lorsque pressé -->
+    <corners android:radius="16dp" /> <!-- Garder les coins arrondis -->
+    <padding
+        android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp" />
+    <stroke android:width="2dp" android:color="#FFFFFF" /> <!-- Garder la bordure blanche -->
+</shape>

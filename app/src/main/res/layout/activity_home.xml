@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:padding="35dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Bienvenue,"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Bouton Slice avec fond noir -->
+    <Button
+        android:id="@+id/btn_slice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#000000"
+        android:backgroundTint="#100F0F"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Slice"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <!-- Bouton Categories avec fond noir -->
+    <Button
+        android:id="@+id/btn_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#000000"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Categories"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Bouton Contact avec fond noir -->
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Contact"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

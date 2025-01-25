@@ -1,0 +1,7 @@
+<!-- button_background_black.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Couleur lorsqu'il est pressé (gris foncé) -->
+    <item android:drawable="@color/grayDark" android:state_pressed="true"/>
+    <!-- Couleur par défaut : noir -->
+    <item android:drawable="@android:color/black"/>
+</selector>
